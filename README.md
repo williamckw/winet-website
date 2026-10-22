@@ -1,1 +1,1 @@
-# winet-website
+Winet Solution Enterprise light motion website prototype. Open index.html to preview. Branch feature/winet-light-motion. Content is a staging prototype; forms require a backend and the logo is temporary.
