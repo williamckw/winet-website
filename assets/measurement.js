@@ -7,7 +7,7 @@ if(config.analyticsConsent&&/^G-[A-Z0-9]+$/.test(config.ga4MeasurementId)){
 const s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+encodeURIComponent(config.ga4MeasurementId);document.head.appendChild(s);
 window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments)};window.gtag("js",new Date());window.gtag("config",config.ga4MeasurementId,{anonymize_ip:true});
 }
-if(config.enableArticleAds&&/^ca-pub-[0-9]+$/.test(config.adsenseClientId)&&config.adsenseArticleSlotId&&document.body.dataset.page?.startsWith("insights/")){
+if(config.enableArticleAds&&/^ca-pub-[0-9]+$/.test(config.adsenseClientId)&&config.adsenseArticleSlotId&&window.location.pathname.includes("/insights/")){
 document.querySelectorAll("[data-ad-slot]").forEach(x=>{x.hidden=false;x.innerHTML='<div><div class="w-ad-slot-label">ADVERTISEMENT</div><ins class="adsbygoogle" style="display:block" data-ad-client="'+config.adsenseClientId+'" data-ad-slot="'+config.adsenseArticleSlotId+'" data-ad-format="auto" data-full-width-responsive="true"></ins></div>'});
 const t=document.createElement("script");t.async=true;t.crossOrigin="anonymous";t.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client="+encodeURIComponent(config.adsenseClientId);t.onload=()=>document.querySelectorAll(".adsbygoogle").forEach(()=>{(window.adsbygoogle=window.adsbygoogle||[]).push({})});document.head.appendChild(t);
 }
