@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://winet.com.my/</loc></url><url><loc>https://winet.com.my/about.html</loc></url><url><loc>https://winet.com.my/services.html</loc></url><url><loc>https://winet.com.my/solutions.html</loc></url><url><loc>https://winet.com.my/work.html</loc></url><url><loc>https://winet.com.my/contact.html</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://winet.com.my/</loc></url>
+  <url><loc>https://winet.com.my/about.html</loc></url>
+  <url><loc>https://winet.com.my/services.html</loc></url>
+  <url><loc>https://winet.com.my/solutions.html</loc></url>
+  <url><loc>https://winet.com.my/work.html</loc></url>
+  <url><loc>https://winet.com.my/contact.html</loc></url>
+  <url><loc>https://winet.com.my/insights.html</loc></url>
+  <url><loc>https://winet.com.my/services/website-development.html</loc></url>
+  <url><loc>https://winet.com.my/services/custom-software.html</loc></url>
+  <url><loc>https://winet.com.my/services/ecommerce.html</loc></url>
+  <url><loc>https://winet.com.my/services/branding.html</loc></url>
+  <url><loc>https://winet.com.my/services/integration.html</loc></url>
+  <url><loc>https://winet.com.my/services/hosting.html</loc></url>
+  <url><loc>https://winet.com.my/insights/how-to-plan-a-business-website.html</loc></url>
+  <url><loc>https://winet.com.my/insights/custom-software-vs-off-the-shelf.html</loc></url>
+  <url><loc>https://winet.com.my/insights/website-maintenance-checklist.html</loc></url>
+</urlset>
